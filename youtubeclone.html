@@ -8,18 +8,117 @@
 			href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="styles/general.css">
-		<link rel="stylesheet" href="styles/header.css">
-		<link rel="stylesheet" href="styles/video.css">
+		<link rel="stylesheet" href="styles/general.css" />
+		<link rel="stylesheet" href="styles/header.css" />
+		<link rel="stylesheet" href="styles/video.css" />
+		<link rel="stylesheet" href="styles/sidebar.css" />
 		<title>YouTube</title>
 	</head>
 	<body>
 		<div class="header">
-			<div class="left-section"></div>
+			<div class="left-section">
+				<img
+					class="hamburger-menu"
+					src="P-Assets/icons/hamburger-menu.svg"
+					alt=""
+				/><img
+					class="youtube-logo"
+					src="P-Assets/icons/youtube-logo.svg"
+					alt=""
+				/>
+			</div>
 			<div class="middle-section">
 				<input class="search-bar" type="text" placeholder="Search" />
+				<button class="search-button">
+					<img
+						class="search-icon"
+						src="P-Assets/icons/search.svg"
+						alt=""
+					/>
+				</button>
+				<button class="voice-search-button">
+					<img
+						class="voice-search-icon"
+						src="P-Assets/icons/voice-search-icon.svg"
+						alt=""
+					/>
+				</button>
 			</div>
-			<div class="right-section"></div>
+			<div class="right-section">
+				<img
+					src="P-Assets/icons/upload.svg"
+					alt=""
+					class="upload-icon"
+				/><img
+					src="P-Assets/icons/youtube-apps.svg"
+					alt=""
+					class="youtube-apps-icon"
+				/>
+				<div class="notification-div">
+					<img
+						src="P-Assets/icons/notifications.svg"
+						alt=""
+						class="notification-icon"
+					/>
+					<div class="notifications-count"><p>3</p></div>
+				</div>
+
+				<img
+					src="P-Assets/channel-pictures/my-channel.jpeg"
+					alt=""
+					class="account-profile"
+				/>
+			</div>
+		</div>
+		<div class="sidebar">
+			<div class="icon-name-pack">
+				<img
+					src="P-Assets/icons/home.svg"
+					alt=""
+					class="home-icon sicon"
+				/>
+				<p class="icon-name">Home</p>
+			</div>
+			<div class="icon-name-pack">
+				<img
+					src="P-Assets/icons/explore.svg"
+					alt=""
+					class="explore-icon sicon"
+				/>
+				<p class="icon-name">Explore</p>
+			</div>
+			<div class="icon-name-pack">
+				<img
+					src="P-Assets/icons/subscriptions.svg"
+					alt=""
+					class="subscriptions-icon sicon"
+				/>
+				<p class="icon-name">Subscriptions</p>
+			</div>
+			<div class="icon-name-pack">
+				<img
+					src="P-Assets/icons/originals.svg"
+					alt=""
+					class="originals-icon sicon"
+				/>
+				<p class="icon-name">Originals</p>
+			</div>
+			<div class="icon-name-pack">
+				<img
+					src="P-Assets/icons/youtube-music.svg"
+					alt=""
+					class="youtube-music-icon sicon"
+				/>
+				<p class="icon-name">YouTube Music</p>
+			</div>
+			<div class="icon-name-pack">
+				<img
+					src="P-Assets/icons/library.svg"
+					alt=""
+					class="library-icon sicon"
+				/>
+				<p class="icon-name">Library</p>
+			</div>
 		</div>
 		<div class="video-grid">
 			<div class="video">
@@ -29,6 +128,9 @@
 						src="P-Assets/thumbnails/thumbnail-1.webp"
 						onerror="this.src='P-Assets/thumbnails/maxresdefaultcropped.jpg'"
 					/>
+					<div class="video-time">
+						<p>14:20</p>
+					</div>
 				</div>
 				<div class="video-info-grid">
 					<div class="channel-picture">
@@ -56,6 +158,9 @@
 						src="P-Assets/thumbnails/thumbnail-2.webp"
 						onerror="this.src='P-Assets/thumbnails/maxresdefaultcropped.jpg'"
 					/>
+					<div class="video-time">
+						<p>8:22</p>
+					</div>
 				</div>
 				<div class="video-info-grid">
 					<div class="channel-picture">
@@ -81,6 +186,9 @@
 						src="P-Assets/thumbnails/thumbnail-3.webp"
 						onerror="this.src='P-Assets/thumbnails/maxresdefaultcropped.jpg'"
 					/>
+					<div class="video-time">
+						<p>9:33</p>
+					</div>
 				</div>
 				<div class="video-info-grid">
 					<div class="channel-picture">
@@ -108,6 +216,9 @@
 						src="P-Assets/thumbnails/thumbnail-4.webp"
 						onerror="this.src='P-Assets/thumbnails/maxresdefaultcropped.jpg'"
 					/>
+					<div class="video-time">
+						<p>22:09</p>
+					</div>
 				</div>
 				<div class="video-info-grid">
 					<div class="channel-picture">
@@ -136,6 +247,9 @@
 						src="P-Assets/thumbnails/thumbnail-5.webp"
 						onerror="this.src='P-Assets/thumbnails/maxresdefaultcropped.jpg'"
 					/>
+					<div class="video-time">
+						<p>14:20</p>
+					</div>
 				</div>
 				<div class="video-info-grid">
 					<div class="channel-picture">
@@ -163,6 +277,9 @@
 						src="P-Assets/thumbnails/thumbnail-6.webp"
 						onerror="this.src='P-Assets/thumbnails/maxresdefaultcropped.jpg'"
 					/>
+					<div class="video-time">
+						<p>14:20</p>
+					</div>
 				</div>
 				<div class="video-info-grid">
 					<div class="channel-picture">
