@@ -4,91 +4,35 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Position Practice</title>
+		<title>gif text</title>
 		<link
 			href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
 			rel="stylesheet"
 		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
-			rel="stylesheet"
-		/>
 		<style>
 			body {
-				margin: 0;
-			}
-			p {
-				font-family: roboto;
-				margin: 0;
-			}
-			.sidebar-main {
-				display: flex;
-				position: fixed;
-			}
-			.pictures {
-				position: fixed;
-				top: 0;
-				bottom: 0;
-				left: 0;
-				width: 45px;
 				display: flex;
 				align-items: center;
-				flex-direction: column;
-				gap: 10px;
-				background-color: rgb(33 33 39);
-				padding: 15px;
+				height: 100vh;
+				justify-content: center;
 			}
-			.friend {
-				height: 50px;
-				width: 50px;
-				object-fit: cover;
-				border-radius: 50%;
-			}
-			.info {
-				position: fixed;
-				top: 0;
-				bottom: 0;
-				left: 75px;
-				width: 155px;
-				background-color: rgb(50 49 50);
-				color: white;
-				padding: 15px;
-			}
-			.info-line {
-				display: flex;
-				justify-content: space-between;
-				font-weight: 700;
-				text-align: top;
-			}
-			.plus-sign{
-				color: grey;
-				font-size: 20px;
-			}
-			.hashtag{
-				margin-top: 4px;
-				line-height: 35px;
-				color: grey;
+			h1 {
+				font-family: work sans;
+				font-weight: 800;
+				text-transform: uppercase;
+				font-size: 40px;
+				border: solid 5px;
+				padding: 10px 16px;
+				background-image: url(P-Assets/J2V-9NmsAlWJTnpHjGwtAv_fCdXKIxFEnVVFrW_Dk-g.gif);
+				background-position: bottom;
+				background-clip: text;
+				-webkit-text-fill-color: transparent;
+				border-image-source: url(P-Assets/J2V-9NmsAlWJTnpHjGwtAv_fCdXKIxFEnVVFrW_Dk-g.gif);
+				border-image-slice: 100;
 			}
 		</style>
 	</head>
-	<body style="height: 3000px">
-		<div class="sidebar-main">
-			<div class="pictures">
-				<img src="P-Assets/Animals/cat.jpg" alt="" class="friend" />
-				<img src="P-Assets/Animals/cat2.jpg" alt="" class="friend" />
-				<img src="P-Assets/Animals/dog.jpg" alt="" class="friend" />
-			</div>
-			<div class="info">
-				<div class="info-line">
-					<p class="info-word">INFO</p>
-					<p class="plus-sign">&plus;</p>
-				</div>
-				<div class="hashtags">
-					<p class="hashtag"># new-videos</p>
-					<p class="hashtag"># updates</p>
-					<p class="hashtag"># faq</p>
-				</div>
-			</div>
-		</div>
+	<body>
+		<h1>Beautiful Title</h1>
 	</body>
 </html>
